@@ -1,0 +1,22 @@
+.login{
+    color: white;
+    margin: auto;
+    border: 1px black solid;
+}
+
+.logintext{
+    display:flex;
+
+}
+
+.loginInput{
+    background:white;
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+#spacerDivLogin{
+    height: 20px;
+    width: 100%;
+}

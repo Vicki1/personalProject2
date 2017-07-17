@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background: #20ccd5;
+  height: 100vh; }
+
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+*/
+.App-header {
+  background-color: #5fe0e7;
+  text-align: left;
+  display: flex;
+  height: 100px;
+  color: white; }
+  .App-header .can-do {
+    padding-top: 08px;
+    padding-left: 20px; }
+  .App-header .checkLogo {
+    fill: white;
+    height: 100px;
+    width: 100px; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.login {
+  color: white; }
+  .login .username {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 350px; }
+  .login .user_pass_spacer {
+    height: 10px;
+    width: 100vw; }
+  .login .password {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 350px; }
+  .login .whiteBox {
+    height: 50px;
+    width: 250px;
+    background: white;
+    border-radius: 10px; }
